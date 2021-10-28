@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* ベース
+-------------------------*/
+body{
+    color: #A6ADB4;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+h2{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EBEDED;
+    color: #202124;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li{
+  list-style: none;
+}
+
+small{
+    color: #CBD0D3;
+    font-size: 12px;
+}
+
+/* レイアウト
+-------------------------*/
+/* header */
+.l-header{
+    padding-top: 30px;
+}
+
+/* footer */
+.l-footer{
+    padding: 100px 0 40px;
+    background-color: #A6ADB4;
+}
+
+.l-inner{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.l-section{
+    padding: 60px 0;
+}
+
+/* カラム */
+.l-col6{
+    width: 47.5%;
+}
+
+.l-col3{
+    width: 30%;
+}
+
+/* スペーシング */
+.l-mb6{
+    margin-bottom: 60px;
+}
+
+.l-mb6-{
+    margin-bottom: -60px;
+}
+
+/* カラー */
+.l-bg-gray{
+    background-color: #F6F8F9;
+}
+
+/* フレックスボックス */
+.l-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.l-justify-between{
+  justify-content: space-between;
+}
+
+.l-align-center{
+  align-items: center;
+}
+
+/* モジュール
+-------------------------*/
+/* gnav */
+.gnav > li{
+    margin-left: 20px;
+}
+
+.gnav a{
+    color: #A6ADB4;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.gnav .l-current{
+    color: #343638;
+}
+
+/* news */
+.news-category{
+    margin-bottom: 5px;
+    color: #FA6980;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.news-title{
+    margin-bottom: 10px;
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* card */
+.card{
+    background-color: #fff;
+}
+
+.card-body{
+    padding: 35px;
+}
+
+.card-title{
+    margin-bottom: 10px;
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.card .btn{
+    margin-left: auto;
+}
+
+/* btn */
+.btn{
+    margin-top: 30px;
+    padding: 12px 0;
+    display: block;
+    width: 160px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FA6980;
+    text-decoration: none;
+}
+
+/* date */
+.date{
+    margin-top: 20px;
+    padding-left: 26px;
+    font-size: 12px;
+    font-style: italic;
+    background: url(images/icon_time.png) no-repeat 0 50%;
+}
